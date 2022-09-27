@@ -10,8 +10,6 @@ import javax.validation.constraints.NotNull;
 @Setter
 public class UpdateScheduleResource {
 
-    private Long id;
-
     @NotNull
     @NotBlank
     private String time;

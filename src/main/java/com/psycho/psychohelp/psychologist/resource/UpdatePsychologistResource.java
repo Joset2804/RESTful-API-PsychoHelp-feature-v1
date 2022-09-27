@@ -12,8 +12,6 @@ import java.util.Date;
 @Setter
 public class UpdatePsychologistResource {
 
-    private Long id;
-
     @NotNull
     @NotBlank
     @Size(max = 40)
